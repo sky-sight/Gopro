@@ -16,7 +16,6 @@ func main() {
 	// ReadString('\n') includes the newline character in the input,
 	// causing issues in conversion. Using ReadString('\n') instead.
 	input, _ := reader.ReadString('\n')
-
 	// Trim the newline character and spaces
 	input = strings.TrimSpace(input)
 
