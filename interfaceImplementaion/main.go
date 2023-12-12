@@ -23,10 +23,10 @@ func printGreeting(b bot) {
 	fmt.Println(b.getGreeting())
 }
 
-func (englishBot) getGreeting() string {
+func (b englishBot) getGreeting() string {
 	return "Hi, There"
 }
 
-func (spanishBot) getGreeting() string {
+func (s spanishBot) getGreeting() string {
 	return "hola"
 }

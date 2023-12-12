@@ -11,21 +11,21 @@ type equity interface {
 }
 
 type MAHABANK struct {
-	Shareholding string
+	Promoter_Name string
 }
 
 type AXISBANK struct {
-	Shareholding string
+	Promoter_Name string
 }
 
 func (m MAHABANK) mutualFund() {
 	fmt.Println("The details of the user are :->")
-	fmt.Println("Shareholding in MAHABANK:", m.Shareholding)
+	fmt.Println("Majority Stake Promoter Name in MAHABANK:", m.Promoter_Name)
 }
 
 func (a AXISBANK) mutualFund() {
 	fmt.Println("The details of the user are :->")
-	fmt.Println("Shareholding in AXISBANK:", a.Shareholding)
+	fmt.Println("Shareholding in AXISBANK:", a.Promoter_Name)
 }
 
 func (m MAHABANK) stock() {
@@ -51,4 +51,5 @@ func main() {
 
 }
 
-// YASH DWIVEDI will always be in progress and will live long
+
+//need to understand this
